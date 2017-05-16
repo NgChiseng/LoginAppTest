@@ -2,6 +2,7 @@
     <string name="app_name">LoginAppTest</string>
     <string name="cell_phone">Cell Phone</string>
     <string name="confirm">Confirm</string>
+    <string name="invalid_format">Invalid phone number</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="recover_password">Recover Password</string>

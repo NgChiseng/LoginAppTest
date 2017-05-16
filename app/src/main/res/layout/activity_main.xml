@@ -12,11 +12,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="59dp"
-        android:text="@string/login"
         android:textSize="30sp"/>
 
     <EditText
-        android:id="@+id/cellphone"
+        android:id="@+id/phone_field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -30,38 +29,38 @@
         android:hint="@string/cell_phone" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/password_field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:layout_below="@+id/cellphone"
-        android:layout_alignLeft="@+id/cellphone"
-        android:layout_alignStart="@+id/cellphone"
+        android:layout_below="@+id/phone_field"
+        android:layout_alignLeft="@+id/phone_field"
+        android:layout_alignStart="@+id/phone_field"
         android:layout_marginTop="33dp"
         android:hint="@string/password"/>
 
     <TextView
-        android:id="@+id/recoverPassword"
+        android:id="@+id/recover_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/password"
-        android:layout_alignRight="@+id/password"
-        android:layout_below="@+id/password"
+        android:layout_alignEnd="@+id/password_field"
+        android:layout_alignRight="@+id/password_field"
+        android:layout_below="@+id/password_field"
         android:layout_marginTop="29dp"
         android:text="@string/recover_password" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/recoverPassword"
+        android:layout_below="@+id/recover_password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp"
-        android:text="@string/confirm" />
+        android:text="@string/confirm"/>
 
     <ProgressBar
-        android:id="@+id/progressBar2"
+        android:id="@+id/login_progress_bar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
